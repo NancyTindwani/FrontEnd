@@ -11,16 +11,7 @@ const products = [
     Quantity:'1box-200gm',
     price: 'Rs.200',
   },
-  {
-    name: 'Almonds',
-    Quantity:'1box-100gm',
-    price: 'Rs.100',
-  },
-  {
-    name: 'Onion',
-    Quantity:'1Kg',
-    price: 'Rs.200',
-  },
+  
   
   { name: 'Shipping', desc: '', price: 'Rs.100' },
 ];
