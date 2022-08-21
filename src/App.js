@@ -8,6 +8,9 @@ import Reviewsecond from './components/Reviewsecond';
 import Checkout from './components/Checkout';
 import Checkout2 from './components/Checkout2';
 import SignInOutContainer from './container/Index'
+import Creditcard from './components/creditcard'
+import Review from './components/Review';
+import Reviewpaymentbycard from './components/Reviewpaymentbycard'
 function App() {
   return (
     <div className="App">
@@ -22,6 +25,8 @@ function App() {
         <Route path='review' element={<Reviewsecond/>}/>
         <Route path='checkout' element={<Checkout/>}/>
         <Route path='checkout2' element={<Checkout2/>}/>
+        <Route path='creditcard' element={<Creditcard/>}/>
+        <Route path='review2' element={<Reviewpaymentbycard/>}/>
       </Routes>
     </div>
   );
